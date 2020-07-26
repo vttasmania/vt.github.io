@@ -42,11 +42,21 @@
   <link async href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link async href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link async href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
   
   <!-- Primary CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Uniform Upcoming Events Script -->
+  <script>
+  $(document).ready(function(){
+   
+   $('#upcominguniform').load("upcominguniform.html");
+
+  });
+  </script>
   
   <!-- JSON Schema -->
   
@@ -408,90 +418,7 @@ src="https://www.facebook.com/tr?id=1023907418024686&ev=PageView&noscript=1"
 	<!-- End Schedule -->
 	
 	<!-- Upcoming Events -->
-	    <section id="upcoming" class="clients">
-      <div class="container " data-aos="zoom-in">
-	              <h3>Upcoming Events</h3>
-<div class="row">
-        	
-            
-            <div class="col-12 col-md-4 order-1 order-md-1 d-flex align-items-center justify-content-center">
-                
-
-<!-- Featured Event 1 Link -->
-            <a href="events/crookedcolours.html">
-<!-- Featured Event 1 Image -->
-<!-- MUST BE 4:3 -->                
-                <img class="gigs-homepage-img" src="assets/img/events/crookedcolours4by3.png" alt="Crooked Colours">
-                
-                
-			</a></div>
-            
-
-            <div class="grow col-12 col-md-4 order-2 order-md-4 d-flex justify-content-center upcoming-date-padding">
-              
-<!-- Featured Event 1 Link -->
-            <a href="events/crookedcolours.html">
-                
-<!-- Featured Event 1 Title -->
-			<h4>Crooked Colours<span><br>Saturday 18<sup>th</sup> September 2020</span></h4>
-            
-                
-            </a></div>
-			<div class="col-12 col-md-4 order-3 order-md-2 d-flex align-items-center justify-content-center ">
-                
-<!-- Featured Event 2 Link -->
-            <a href="events/junglegiants.html">
-                
-<!-- Featured Event 2 Image -->
-<!-- MUST BE 4:3 -->
-            <img class="gigs-homepage-img" src="assets/img/events/junglegiants4by3.png" alt="The Jungle Giants">
-                
-            </a></div>
-            <div class="grow col-12 col-md-4 order-4 order-md-5 d-flex justify-content-center upcoming-date-padding">
-<!-- Featured Event 2 Link -->
-            <a href="events/junglegiants.html">
-<!-- Featured Event 2 Title -->
-			<h4>The Jungle Giants<span><br>Thursday 31<sup>st</sup> December 2020</span></h4>
-                
-                </a></div>
-            <div class="col-12 col-md-4 order-5 order-md-3 d-flex align-items-center justify-content-center ">
-                
-
-<!-- MUST BE 4:3 -->
-<!-- Featured Event 3 Link -->
-            <a href="events/tonesandi.html">
-                
-<!-- Featured Event 3 Image -->               
-            <img class="gigs-homepage-img" src="assets/img/events/tonesandi4by3.png" alt="Tones and I">
-			
-            </a></div>
-            <div class="grow col-12 col-md-4 order-6 order-md-6 d-flex justify-content-center upcoming-date-padding">
-                
-<!-- Featured Event 3 Link -->
-            <a href="events/tonesandi.html">   
-                
-<!-- Featured Event 3 Title -->
-			<h4>Tones and I<span><br>Friday 9<sup>th</sup> October 2020</span></h4>
-			
-                </a> </div>
-		
-          </div>
-          
-    <div class="row" style="margin-bottom: 100px;">
-        <div class="col d-flex align-items-center justify-content-center">
-
-            			<a style="position: absolute;" class="vt-btn" href="upcoming.html">See All Upcoming Events</a>
-			</div>
-        
-          </div>
-          
-		
-	
-	  </div>
-	  </section>
-          
-      
-      
+	    <div id="upcominguniform"></div>
       
       <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
