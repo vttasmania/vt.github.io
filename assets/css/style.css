@@ -1958,6 +1958,12 @@ margin-top: 50px;
   font-size: 14px;
   display: inline-block;
   border: 2px solid #3b5998;
+  position: absolute;
+  margin-top: 80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+margin-top: 80px !important;
+}
 }
 
 .gigs-fb-btn:hover {
@@ -1969,6 +1975,11 @@ margin-top: 50px;
   .gigs-fb-btn {
     margin: 0 48px 0 0;
     padding: 7px 20px 8px 20px;
+        position: absolute;
+  margin-top: 80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+margin-top: 80px !important;
   }
 }
 
