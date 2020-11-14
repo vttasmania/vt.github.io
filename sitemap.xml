@@ -47,33 +47,13 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://vandemoniantouring.com.au/events/waax.html</loc>
-  <lastmod>2020-07-12T04:08:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://vandemoniantouring.com.au/events/northeastpartyhouse.html</loc>
-  <lastmod>2020-07-12T04:08:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://vandemoniantouring.com.au/events/thelmaplum.html</loc>
   <lastmod>2020-07-12T04:08:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://vandemoniantouring.com.au/events/mallrat.html</loc>
   <lastmod>2020-07-12T04:08:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-    <url>
-  <loc>https://vandemoniantouring.com.au/events/aswayze.html</loc>
-  <lastmod>2020-09-18T04:08:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-        <url>
-  <loc>https://vandemoniantouring.com.au/events/aswayze2.html</loc>
-  <lastmod>2020-09-26T04:08:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
         <url>
@@ -88,11 +68,6 @@
 </url>
             <url>
   <loc>https://vandemoniantouring.com.au/events/stellar.html</loc>
-  <lastmod>2020-10-29T04:08:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-            <url>
-  <loc>https://vandemoniantouring.com.au/events/jaw.html</loc>
   <lastmod>2020-10-29T04:08:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -114,6 +89,11 @@
 <url>
   <loc>https://vandemoniantouring.com.au/events/tinderboxes.html</loc>
   <lastmod>2020-11-03T04:08:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vandemoniantouring.com.au/events/boxingday.html</loc>
+  <lastmod>2020-11-014T04:08:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
