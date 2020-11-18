@@ -2,11 +2,21 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  background-color: #000000;
+  background: rgb(236,94,72);
+background: linear-gradient(0deg, rgba(236,94,72,1) 0%, rgba(236,149,103,1) 100%);
 }
 
 a {
   color: #FECC33;
+}
+
+@font-face {
+    font-family: 'Nouvelle Vague';
+    src: url('NouvelleVague-Black.woff2') format('woff2'),
+        url('NouvelleVague-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 a:hover {
@@ -952,6 +962,11 @@ section {
   overflow: hidden;
 }
 
+sectiontgg {
+  padding: 0px 0 !important;
+  overflow: hidden;
+}
+
 .section-title {
   padding-bottom: 40px;
 }
@@ -1026,7 +1041,7 @@ section {
 .eventpage-row {
     margin-top: 30px;
     margin-bottom: 30px;
-    border-top: 2px solid #919191;
+    border-top: 2px solid #ffffff;
     
 }
 
@@ -1743,7 +1758,7 @@ margin-top: 50px;
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  background: #000000;
+  background: #00000000;
   min-height: 40px;
 }
 
@@ -1876,7 +1891,7 @@ margin-top: 50px;
     /*    width: 100%;
     min-height: 100%;*/
     width: 100%;
-    height: 25vh;
+    height: 60vh;
 	z-index: 21;
 	position: relative;
 	object-fit: cover;
@@ -1985,14 +2000,16 @@ margin-top: 80px !important;
 
 
 .eventpage-tix-btn {
-  color: #fff;
-  border-radius: 4px;
-  padding: 7px 25px 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-  border: 2px solid #FF2D00;
+    color: #ed6c4f;
+    font-weight: 900;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 7px 25px 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    border: 2px solid #ffffff;
     margin-left: 10px;
 }
 
@@ -2345,7 +2362,7 @@ margin-top: 80px !important;
     bottom: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #e97864;
+    background-color: #FECC33;
 }
 
 .rolm-img {
