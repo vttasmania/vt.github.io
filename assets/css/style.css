@@ -90,16 +90,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-::placeholder { 
+::placeholder {
   color: white;
-  opacity: 1; 
+  opacity: 1;
 }
 
-:-ms-input-placeholder { 
+:-ms-input-placeholder {
   color: white;
 }
 
-::-ms-input-placeholder { 
+::-ms-input-placeholder {
   color: white;
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .grow:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 .head-pad {
@@ -328,7 +328,7 @@ font-size: 13px;
   font-weight: 300;
   letter-spacing: 2px;
   text-align: center;
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 }
 
@@ -368,7 +368,7 @@ font-size: 13px;
     display: block;
       transition: all 0.5s;
 }
-    
+
     #header .logo-on-scroll h2:hover{
     display: block;
   transform: scale(1.1);
@@ -445,7 +445,7 @@ font-size: 13px;
   line-height: 1;
   font-weight: 300;
   text-align: center;
-    transform: scale(1.05); 
+    transform: scale(1.05);
         -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -471,7 +471,7 @@ font-size: 13px;
   #headerns .logo {
     font-size: 28px;
   }
-  
+
 }
 
 /*--------------------------------------------------------------
@@ -872,8 +872,8 @@ font-size: 13px;
     display: inline-block;
     transform: translateX(-50%);
   margin-left: 50%;
-    
-    
+
+
 }
 
 #hero .about-btn:hover {
@@ -1027,7 +1027,7 @@ section {
     margin-top: 30px;
     margin-bottom: 30px;
     border-top: 2px solid #919191;
-    
+
 }
 
 .eventpage-row2 {
@@ -1054,7 +1054,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
-  
+
 }
 
 .about .content ul li {
@@ -1068,7 +1068,7 @@ section {
   left: 0;
   top: -3px;
   color: #FECC33;
-  
+
 }
 
 .about .content p:last-child {
@@ -1542,7 +1542,7 @@ margin-top: 50px;
 
       background-image: url("../img/img7.jpg");
   }
-  
+
 }
 
 /*--------------------------------------------------------------
@@ -1780,13 +1780,13 @@ margin-top: 50px;
 	font-family: "Poppins", sans-serif;
 	margin-top: 75px;
   }
-  
+
     .contactgigstext {
     font-size: 17px;
 		  font-weight: 300;
 	font-family: "Poppins", sans-serif;
   }
-  
+
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -1831,21 +1831,21 @@ margin-top: 50px;
   .textbody {
 	  font-size: 10px;
   }
-  
+
       .gigstitle {
     font-size: 25px;
 	margin-top: 40px;
   }
-    
+
     .contactgigstitle {
         margin-top: 40px;
     }
-  
+
     .gigstext {
     font-size: 17px;
 
   }
-  
+
   .hiddenmobile {
 	  display: none;
   }
@@ -1891,14 +1891,14 @@ margin-top: 50px;
 }
 
 .ticketslogo {
-	
+
 	width: 200px;
 	margin-left: -30px;
     margin-bottom: 30px;
 }
 
 .ticketslogo:hover {
-	
+
 	opacity: 0.5;
 }
 
@@ -1909,9 +1909,9 @@ margin-top: 50px;
 
 .gigshead {
 	padding-top: 0vh;
-	
+
 }
-	
+
 .gigs-text {
     font-family: "Poppins", sans-serif;
 	color: #ffffff;
@@ -1962,7 +1962,7 @@ margin-top: 50px;
   margin-top: 80px;
   left: 50%;
   transform: translate(-50%, -50%);
-margin-top: 80px !important;
+  margin-top: 80px;
 }
 }
 
@@ -2181,7 +2181,7 @@ margin-top: 80px !important;
 #footer .footer-top {
   background: #1b1b1b;
     z-index: 999;
-    
+
 }
 
 #footer .footer-top .footer-info {
@@ -2331,7 +2331,7 @@ margin-top: 80px !important;
   .footer-l2 {
     text-align: left;
   }
-  
+
 }
 
 
@@ -2374,14 +2374,14 @@ margin-top: 80px !important;
   .rolm-img {
     width: 50vw;
   }
-  
+
 }
 
 @media (max-width: 768px) {
   .rolm-img {
     width: 50vw;
   }
-  
+
 }
 
 .rolm-img2 {
@@ -2405,12 +2405,12 @@ margin-top: 80px !important;
   .rolm-mobile {
     display: none;
   }
-  
+
 }
 
 @media (min-width: 576px) {
   .rolm-desktop {
     display: none;
   }
-  
+
 }
