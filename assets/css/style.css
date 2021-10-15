@@ -2339,13 +2339,13 @@ margin-top: 80px !important;
 
 .rolm-box {
     margin-bottom: 0rem;
-    padding: 2rem;
+    padding: 0rem;
     background-color: #000;
     position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #e97864;
+    background-color: red;
 }
 
 .rolm-img {
