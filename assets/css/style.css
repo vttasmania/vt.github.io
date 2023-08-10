@@ -2009,6 +2009,27 @@ margin-top: 80px !important;
   }
 }
 
+.eventpage-tix-btn-disabled {
+  color: gray;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #880808;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .eventpage-tix-btn-disabled {
+    margin: 0 48px 0 0;
+    margin-top: 10px;
+    padding: 7px 20px 8px 20px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
