@@ -461,7 +461,34 @@ font-size: 13px;
     display: block;
 }
 
+.fa-facebooka {
+  background: #3B5998;
+  color: white;
+}
 
+.fa-spotifya {
+  background: #1DB954;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    padding-right: 43px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagrama {
+  background: #B900B3;
+  color: white;
+}
 
 #headerns .logo a {
   color: #fff;
@@ -1506,6 +1533,17 @@ margin-top: 50px;
   padding-bottom: 160px;
 }
 
+.cta2 {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/unibar3.jpg") fixed center center;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.cta2 h1 {
+    font-size: 8em;
+}
+
 .cta h3 {
   color: #fff;
   font-size: 28px;
@@ -1542,6 +1580,32 @@ margin-top: 50px;
 
       background-image: url("../img/img7.jpg");
   }
+    
+    .cta2 h1 {
+        font-size: 8em;
+}
+    
+
+}
+
+@media (max-width: 460px) {
+  
+    
+    .cta2 h1 {
+        font-size: 6em;
+        padding-bottom: 50px;
+}
+    
+
+}
+@media (max-width: 350px) {
+  
+    
+    .cta2 h1 {
+        font-size: 4em;
+        padding-bottom: 50px;
+}
+    
 
 }
 
@@ -2553,4 +2617,61 @@ margin-top: 80px !important;
     margin-top: 10px;
     padding: 7px 20px 8px 20px;
   }
+}
+
+
+.chevron {
+  position: absolute;
+  width: $base * 3.5;
+  height: $base * 0.8;
+  opacity: 0;
+  transform: scale(0.3);
+  animation: move-chevron 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move-chevron 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move-chevron 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+ content: '';
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 50%;
+ background: white;
+}
+
+.chevron:before {
+ left: 0;
+ transform: skewY(30deg);
+}
+
+.chevron:after {
+ right: 0;
+ width: 50%;
+ transform: skewY(-30deg);
+}
+
+@keyframes move-chevron {
+ 25% {
+  opacity: 1;
+	}
+ 33.3% {
+  opacity: 1;
+  transform: translateY($base * 3.8);
+ }
+ 66.6% {
+  opacity: 1;
+  transform: translateY($base * 5.2);
+ }
+ 100% {
+  opacity: 0;
+  transform: translateY($base * 8) scale(0.5);
+ }
 }
